@@ -1,4 +1,5 @@
 <?php
+//aqui un comentario de prueba
 
 namespace SIMA\Http\Controllers;
 
@@ -11,3 +12,5 @@ abstract class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 }
+
+//aqui otro comentario de prueba
