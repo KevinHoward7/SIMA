@@ -275,10 +275,26 @@ class ComposerStaticInitd78158f5a37d41c37828384f48791103
     );
 
     public static $classMap = array (
+<<<<<<< HEAD
         'CreateDiasTable' => __DIR__ . '/../..' . '/database/migrations/2016_11_18_122256_create_dias_table.php',
         'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
         'CreatePlanificacionCortesTable' => __DIR__ . '/../..' . '/database/migrations/2016_11_18_122242_create_planificacion_cortes_table.php',
+=======
+<<<<<<< HEAD
+        'CreateDenunciasTable' => __DIR__ . '/../..' . '/database/migrations/2016_11_17_184304_create_denuncias_table.php',
+        'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
+        'CreatePersonasTable' => __DIR__ . '/../..' . '/database/migrations/2016_11_17_184249_create_personas_table.php',
+        'CreateTipoDenunciasTable' => __DIR__ . '/../..' . '/database/migrations/2016_11_17_184258_create_tipo__denuncias_table.php',
+=======
+        'CreateDelimitacionGeograficasTable' => __DIR__ . '/../..' . '/database/migrations/2016_11_17_174637_create_delimitacion__geograficas_table.php',
+        'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
+        'CreatePuntoDistribucionsTable' => __DIR__ . '/../..' . '/database/migrations/2016_11_17_174654_create_punto__distribucions_table.php',
+        'CreateSectorsTable' => __DIR__ . '/../..' . '/database/migrations/2016_11_17_174616_create_sectors_table.php',
+        'CreateTipoDelimitacionsTable' => __DIR__ . '/../..' . '/database/migrations/2016_11_17_174704_create_tipo__delimitacions_table.php',
+>>>>>>> 60e857017664ea1e05400a0422ce841165ffef0f
+>>>>>>> 1a7e6a6e09bb969674fc623db2743228a9ed00f6
         'CreateUsersTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_000000_create_users_table.php',
+        'CreateZonasTable' => __DIR__ . '/../..' . '/database/migrations/2016_11_17_174629_create_zonas_table.php',
         'DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeds/DatabaseSeeder.php',
         'File_Iterator' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Iterator.php',
         'File_Iterator_Facade' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Facade.php',
